@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-float a,b,h;
+float area,b,h;
 clrscr();
-printf("entet the value of b,h\n");
+printf("Enter the value of b,h\n");
 scanf("%f%f",&b,&h);
-a=(0.5)*(b*h);
-printf("the vale of a=%f%f\n);
+area=(0.5)*(b*h);
+printf("The area of triangle = %f\n",area);
 getch();
 }
