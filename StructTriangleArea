@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+struct area
+{
+float areab,h;
+}m;
+void main()
+{
+printf("enter the value of b,h\n");
+scanf("%f%f",&m.b,&m.h);
+m.area=(0.5)*(m.b*m.h);
+printf("area of trianfle is %f\n",m.area);
+getch();
+}
