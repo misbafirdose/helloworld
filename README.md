@@ -15,5 +15,5 @@ printf("enter the value of m and n\n");
 scanf("%f%f",&m,&n);
 r=(0.5)*(m*n);
 printf("area of triengle is %f\n,"r);
-getch(0;
+getch(0);
 }
