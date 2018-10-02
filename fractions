@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int sum(int a[],int n)
+{
+int sum=0,i;
+for(i=0;i<n;i++)
+sum=sum+a[i];
+return sum;
+}
+void main()
+clrscr()
+{
+int a[],n,i,sum;
+printf("enter the number of elements\n");
+scanf("%d",&n);
+printf("enter the array opf elements\n");
+for(i=0;i<n;i++)
+scanf("%d",&a[i]);
+sum=sum(a[],n);
+printf("sum is %d",sum);
+getch();
+}
